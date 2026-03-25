@@ -33,7 +33,7 @@ body {
 
 .page::before {
   content: "";
-  flex: 0 0 clamp(58vh, 64vw, 76vh);
+  flex: 0 0 clamp(52vh, 58vw, 70vh);
   min-height: 0;
 }
 
