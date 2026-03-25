@@ -13,7 +13,12 @@ body {
   min-height: 100dvh;
   font-family: system-ui, "Segoe UI", Roboto, sans-serif;
   color: #f4f0ff;
-  background: #1a1228 url("/wallpaper.png") center center / cover no-repeat fixed;
+  background-color: #1a1228;
+  background-image: url("/wallpaper.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% auto;
+  background-attachment: fixed;
 }
 
 .page {
