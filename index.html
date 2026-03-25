@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#1a1228" />
+    <title>Обратный отсчёт до концерта BTS</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="panel">
+        <p class="eyebrow">До концерта</p>
+        <h1 class="title">2 июля 2026 · 20:00</h1>
+        <div class="timer" id="timer" aria-live="polite">
+          <div class="unit">
+            <span class="value" id="days">0</span>
+            <span class="label">дн.</span>
+          </div>
+          <div class="unit">
+            <span class="value" id="hours">00</span>
+            <span class="label">ч.</span>
+          </div>
+          <div class="unit">
+            <span class="value" id="minutes">00</span>
+            <span class="label">мин.</span>
+          </div>
+          <div class="unit">
+            <span class="value" id="seconds">00</span>
+            <span class="label">сек.</span>
+          </div>
+        </div>
+        <p class="done" id="done" hidden>Время пришло.</p>
+      </header>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
